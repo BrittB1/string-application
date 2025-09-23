@@ -16,9 +16,15 @@ public class VariableApp {
         System.out.println("It's " + hasPet + " I had a cat, but he lives with my younger sister now.");
         System.out.println("When something goes awry, I like to say " + catchphrase + ".");
 
+        System.out.println();
 int daysInTheWeek = 7;
 double coffeePrice = 4.99;
 char favLetter = 'B';
 boolean isRaining = false;
+
+        System.out.println("There are about " + daysInTheWeek + " days, or 168 hours, in an entire week. ");
+        System.out.println("I wish coffee costs were " + coffeePrice);
+        System.out.println("My favorite letter is " + favLetter + "." + "Can you guess why?.");
+        System.out.println("For once, its not raining in Florida. For now the answer is " + isRaining + "." );
     }
 }
